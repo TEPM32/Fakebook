@@ -1,0 +1,25 @@
+.image {
+    border: 3px firebrick dashed;
+    border-radius: 13%;
+}
+.image:hover {
+    border: 3px red solid;
+    border-radius: 13%
+}
+p {
+    font-family:lucida-fax;
+}
+.button {
+    border: 1px blue solid;
+    background-color: lightblue;
+    color: blue;
+    display: inline-block;
+    cursor: pointer;
+}
+.button:hover {
+    border: 3px blue solid;
+    background-color: blue;
+    color: white;
+    display: outline;
+    cursor: pointer;
+}
